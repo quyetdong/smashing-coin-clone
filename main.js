@@ -1,12 +1,12 @@
 // Packages
-const fs = require('fs')
-const chalk = require('chalk')
-const date = require('date-and-time');
-var rn = require('random-number');
+import fs from 'fs';
+import date from 'date-and-time';
+import rn from 'random-number';
+import chalk from 'chalk';
 
 // Files
-const CryptoBlockChain = require('./Models/CryptoBlockChain');
-const CryptoBlock = require('./Models/CryptoBlock');
+import CryptoBlockChain from './Models/CryptoBlockChain.js';
+import CryptoBlock from './Models/CryptoBlock.js';
 
 // Declarations
 const now = new Date();

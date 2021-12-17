@@ -1,8 +1,8 @@
 // Packages
-const date = require('date-and-time');
+import date from 'date-and-time';
 
 // Import CryptoBlock
-const CryptoBlock = require('./CryptoBlock');
+import CryptoBlock from './CryptoBlock.js';
 
 // Declarations
 const now = new Date();
@@ -41,4 +41,4 @@ class CryptoBlockChain {
         return true;
     }
 }
-module.exports = CryptoBlockChain;
+export default CryptoBlockChain;

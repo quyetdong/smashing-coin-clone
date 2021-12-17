@@ -1,4 +1,4 @@
-const SHA256 = require('crypto-js/sha256') // imported to calculate the hash of each block
+import SHA256 from 'crypto-js/sha256.js'; // imported to calculate the hash of each block
 
 class CryptoBlock {
     constructor(index, timestamp, data, precedingHash = " ") {
@@ -36,4 +36,5 @@ class CryptoBlock {
     }
 
 }
-module.exports = CryptoBlock;
+
+export default CryptoBlock;

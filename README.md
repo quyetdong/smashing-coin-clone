@@ -2,6 +2,8 @@
 
 Simple Cryptocurrency Blockchain In Node.js
 
+Ref: git@github.com:GiantTechnologies/SmashingCoin.git
+
 ## Install Dependancies
 
     npm install
